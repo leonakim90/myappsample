@@ -1,0 +1,14 @@
+git config --global user.name "mapo"
+git config --globa user.email "gmapopa@gmail.com"
+
+# Add a single file
+git add index.html
+
+# remove a single file (even in cache)
+git rm --cached index.html
+
+# add all .html files
+git add *.html
+
+# Add all files
+git add .
