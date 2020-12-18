@@ -12,3 +12,10 @@ git add *.html
 
 # Add all files
 git add .
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/leonakim90/myappsample.git
+git branch -M main
+git push -u origin main
